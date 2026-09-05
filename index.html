@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0,
+               maximum-scale=1.0, user-scalable=no">
+
+<title>3Appz</title>
+
+<style>
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica, Arial, sans-serif;
+
+    background: #d7d7d7;
+    color: #111;
+}
+
+
+/* TOP BAR */
+
+.topbar {
+    height: 52px;
+
+    background:
+        linear-gradient(
+            #70b8f7 0%,
+            #3984ca 48%,
+            #155b9d 52%,
+            #0b4787 100%
+        );
+
+    border-bottom: 1px solid #00376c;
+
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.65),
+        0 1px 3px rgba(0,0,0,.45);
+}
+
+.topbar h1 {
+    margin: 0;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 22px;
+    line-height: 52px;
+
+    font-weight: bold;
+
+    text-shadow:
+        0 1px 1px #174a79;
+}
+
+
+/* CONTENT */
+
+.content {
+    padding: 12px 10px 20px;
+}
+
+
+/* SEARCH */
+
+.search {
+    width: 100%;
+    height: 36px;
+
+    border-radius: 18px;
+
+    border: 1px solid #777;
+
+    background:
+        linear-gradient(
+            #fafafa,
+            #dcdcdc
+        );
+
+    box-shadow:
+        inset 0 1px 3px rgba(0,0,0,.25),
+        0 1px rgba(255,255,255,.8);
+
+    padding: 0 14px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    margin-bottom: 13px;
+}
+
+.search:focus {
+    background: white;
+}
+
+
+/* SECTION */
+
+.section-title {
+    color: #555;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    margin: 0 8px 6px;
+
+    text-shadow: 0 1px white;
+}
+
+
+/* APP LIST */
+
+.app-list {
+    background: white;
+
+    border: 1px solid #aaa;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 1px 3px rgba(0,0,0,.3);
+}
+
+
+/* APP ROW */
+
+.app {
+    min-height: 92px;
+
+    position: relative;
+
+    padding: 12px 82px 12px 82px;
+
+    background:
+        linear-gradient(
+            #ffffff,
+            #f2f2f2
+        );
+
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.app:last-child {
+    border-bottom: 0;
+}
+
+.app:active {
+    background: #d9e8f8;
+}
+
+
+/* ICON */
+
+.icon {
+    position: absolute;
+
+    left: 12px;
+    top: 12px;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 12px;
+
+    object-fit: cover;
+
+    background: #ddd;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(0,0,0,.25),
+        0 1px 2px rgba(0,0,0,.3);
+}
+
+
+/* NAME */
+
+.app-name {
+    font-size: 17px;
+
+    font-weight: bold;
+
+    color: #111;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    margin-top: 1px;
+}
+
+
+/* VERSION */
+
+.app-version {
+    color: #777;
+
+    font-size: 11px;
+
+    margin-top: 2px;
+}
+
+
+/* DESCRIPTION */
+
+.app-description {
+    color: #555;
+
+    font-size: 12px;
+
+    line-height: 15px;
+
+    margin-top: 5px;
+
+    max-width: 210px;
+}
+
+
+/* INSTALL */
+
+.install {
+    position: absolute;
+
+    right: 10px;
+    top: 31px;
+
+    width: 64px;
+    height: 30px;
+
+    display: block;
+
+    text-align: center;
+
+    line-height: 30px;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    border-radius: 7px;
+
+    border: 1px solid #07509a;
+
+    background:
+        linear-gradient(
+            #65b3f5 0%,
+            #2484d1 48%,
+            #0864b0 52%,
+            #07549a 100%
+        );
+
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.55),
+        0 1px 2px rgba(0,0,0,.3);
+
+    text-shadow:
+        0 1px 1px rgba(0,0,0,.5);
+}
+
+.install:active {
+    background:
+        linear-gradient(
+            #07549a,
+            #2484d1
+        );
+
+    box-shadow:
+        inset 0 2px 4px rgba(0,0,0,.35);
+}
+
+
+/* NO RESULTS */
+
+.empty {
+    display: none;
+
+    padding: 30px;
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* SMALL SCREENS */
+
+@media (max-width: 320px) {
+
+    .app {
+        padding-left: 76px;
+        padding-right: 75px;
+    }
+
+    .icon {
+        left: 10px;
+    }
+
+    .app-description {
+        max-width: 150px;
+    }
+
+    .install {
+        right: 8px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<div class="topbar">
+    <h1>3Appz</h1>
+</div>
+
+
+<!-- MAIN -->
+
+<div class="content">
+
+    <input
+        id="search"
+        class="search"
+        type="search"
+        placeholder="Search"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+    >
+
+
+    <div class="section-title">
+        What we have.
+    </div>
+
+
+    <div
+        class="app-list"
+        id="apps">
+    </div>
+
+
+    <div
+        class="empty"
+        id="empty">
+        Nothing is here vro :'D'.
+    </div>
+
+</div>
+
+
+<script>
+
+
+/* APP DATABASE */
+
+var appList = [
+
+    {
+        name: "Angry Birds Lite",
+        version: "1.0",
+        description: "shoot birds at buildings",
+        icon: "icons/angry-birds-lite.png",
+        ipa: "apps/Angry%20Birds%20Lite.ipa"
+    },
+
+    {
+        name: "Doodle Jump",
+        version: "1.0",
+        description: "A Classic Game THAT EVERYONE NEEDS INSTALL NOW.",
+        icon: "icons/doodle-jump.png",
+        ipa: "apps/Doodle%20Jump.ipa"
+    },
+
+    {
+        name: "Elementz",
+        version: "1.0",
+        description: "From what ive heard its real cool!!!",
+        icon: "icons/elementz.png",
+        ipa: "apps/Elementz.ipa"
+    },
+
+    {
+        name: "Alien Blue (Reddit)",
+        version: "1.0",
+        description: "Why would you want this.",
+        icon: "icons/reddit.png",
+        ipa: "apps/AB.ipa"
+    }
+
+];
+
+
+/* DRAW APPS */
+
+function drawApps(list) {
+
+    var container =
+        document.getElementById("apps");
+
+    container.innerHTML = "";
+
+
+    for (var i = 0; i < list.length; i++) {
+
+        var app = list[i];
+
+        var row =
+            document.createElement("div");
+
+        row.className = "app";
+
+
+        row.innerHTML =
+
+            '<img class="icon" src="' +
+                app.icon +
+            '">' +
+
+            '<div class="app-name">' +
+                app.name +
+            '</div>' +
+
+            '<div class="app-version">' +
+                'Version ' +
+                app.version +
+            '</div>' +
+
+            '<div class="app-description">' +
+                app.description +
+            '</div>' +
+
+            '<a class="install" href="' +
+                app.ipa +
+            '">' +
+                'INSTALL' +
+            '</a>';
+
+
+        container.appendChild(row);
+    }
+
+
+    document.getElementById("empty").style.display =
+        list.length === 0
+            ? "block"
+            : "none";
+}
+
+
+/* SEARCH */
+
+document.getElementById("search").onkeyup =
+function() {
+
+    /*
+     * Convert the search and app names
+     * to lowercase so searching is
+     * not case-sensitive.
+     */
+
+    var query =
+        this.value
+            .toLowerCase()
+            .replace(/^\s+|\s+$/g, "");
+
+
+    var filtered = [];
+
+
+    for (var i = 0;
+         i < appList.length;
+         i++) {
+
+        var app = appList[i];
+
+
+        var name =
+            app.name.toLowerCase();
+
+        var description =
+            app.description.toLowerCase();
+
+
+        /*
+         * indexOf() means:
+         *
+         * "d" -> Doodle Jump
+         * "angry" -> Angry Birds Lite
+         * "birds" -> Angry Birds Lite
+         * "jump" -> Doodle Jump
+         * "ele" -> Elementz
+         */
+
+        if (
+            name.indexOf(query) !== -1 ||
+            description.indexOf(query) !== -1
+        ) {
+
+            filtered.push(app);
+        }
+    }
+
+
+    drawApps(filtered);
+};
+
+
+/* START */
+
+drawApps(appList);
+
+</script>
+
+</body>
+CakePodz 2026. Uhhhh whos actually gonna use this for their ios 3 device

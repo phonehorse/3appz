@@ -1,0 +1,30 @@
+{
+	"fonts" :
+	{
+		"kBundleFontPostTitle" : ["Helvetica Neue", 12, 14, 17, 21, 23],
+		"kBundleFontPostTitleBold" : ["HelveticaNeue-Bold", 12, 14, 17, 21, 23],
+		"kBundleFontPostTitleOld" : ["HelveticaNeue-Bold", 12, 14.5, 18, 22, 24],
+		"kBundleFontPostSubtitle" : ["Helvetica Neue", 11],
+		"kBundleFontPostSubtitleBold" : ["HelveticaNeue-Bold", 11],
+
+		"kBundleFontCanvasPostTitleSmall" : ["HelveticaNeue-Bold", 10],
+		"kBundleFontCanvasPostTitle" : ["HelveticaNeue-Bold", 13],
+		"kBundleFontCanvasPostAdditional" : ["Helvetica Neue", 12],
+
+		"kBundleFontCanvasPostTitleIphone" : ["HelveticaNeue-Bold", 10],
+		"kBundleFontCanvasPostAdditionalIphone" : ["Helvetica Neue", 10],
+
+		"kBundleFontCommentTitle" : ["HelveticaNeue-Bold", 13, 15],
+		"kBundleFontCommentBody" : ["Helvetica Neue", 11.5, 13.5, 17, 21, 23],
+		"kBundleFontCommentBodyItalic" : ["Helvetica-Oblique", 11.5, 13.5, 17, 21, 23],
+		"kBundleFontCommentBodyBold" : ["HelveticaNeue-Bold", 11.5, 13.5, 17, 21, 23],
+
+		"kBundleFontOptionSectionTitle" : ["HelveticaNeue-Bold", 15],
+		"kBundleFontOptionTitle" : ["Helvetica Neue", 13],
+		"kBundleFontOptionTitleBold" : ["HelveticaNeue-Bold", 13],
+
+		"kBundleFontHelveticaBold" : ["HelveticaNeue-Bold", 11],
+		"kBundleFontHelvetica" : ["Helvetica Neue", 11],
+		"kBundleFontItalic" : ["HelveticaNeue-Italic", 11]
+	}
+}

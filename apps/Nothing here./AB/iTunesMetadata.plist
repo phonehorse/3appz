@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<dict/>
+	<key>appleId</key>
+	<string>steve@rim.jobs</string>
+	<key>artistId</key>
+	<integer>370144109</integer>
+	<key>artistName</key>
+	<string>Morrissey Exchange Pty Ltd</string>
+	<key>asset-info</key>
+	<dict>
+		<key>file-size</key>
+		<integer>7244518</integer>
+		<key>flavor</key>
+		<string>10:purple</string>
+	</dict>
+	<key>bundleDisplayName</key>
+	<string>Alien Blue</string>
+	<key>bundleShortVersionString</key>
+	<string>2.9.0</string>
+	<key>bundleVersion</key>
+	<string>2.3</string>
+	<key>copyright</key>
+	<string>© Jason Morrissey</string>
+	<key>drmVersionNumber</key>
+	<integer>0</integer>
+	<key>fileExtension</key>
+	<string>.app</string>
+	<key>gameCenterEnabled</key>
+	<false/>
+	<key>gameCenterEverEnabled</key>
+	<false/>
+	<key>genre</key>
+	<string>News</string>
+	<key>genreId</key>
+	<integer>6009</integer>
+	<key>is-purchased-redownload</key>
+	<true/>
+	<key>is32BitOnly</key>
+	<true/>
+	<key>itemId</key>
+	<integer>370144106</integer>
+	<key>itemName</key>
+	<string>Alien Blue - Reddit Client</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>playlistName</key>
+	<string>Morrissey Exchange Pty Ltd</string>
+	<key>product-type</key>
+	<string>ios-app</string>
+	<key>purchaseDate</key>
+	<date>2009-08-26T19:12:18Z</date>
+	<key>rating</key>
+	<dict>
+		<key>content</key>
+		<string>Frequent/Intense Profanity or Crude Humor , Infrequent/Mild Sexual Content and Nudity , Frequent/Intense Mature/Suggestive Themes , Infrequent/Mild Realistic Violence , Infrequent/Mild Alcohol, Tobacco, or Drug Use or References , Advisory.NO.GAMBLING_CONTESTS and Advisory.NO.UNRESTRICTED_WEB_ACCESS</string>
+		<key>label</key>
+		<string>17+</string>
+		<key>rank</key>
+		<integer>600</integer>
+		<key>system</key>
+		<string>itunes-games</string>
+	</dict>
+	<key>releaseDate</key>
+	<string>2010-05-25T16:20:52Z</string>
+	<key>s</key>
+	<integer>143441</integer>
+	<key>softwareIcon57x57URL</key>
+	<string>http://a764.phobos.apple.com/us/r30/Purple4/v4/15/75/b2/1575b2ea-97c5-fdfc-52b8-5ee03e0eb409/icon114x114.jpeg</string>
+	<key>softwareIconNeedsShine</key>
+	<false/>
+	<key>softwareSupportedDeviceIds</key>
+	<array>
+		<integer>2</integer>
+		<integer>9</integer>
+		<integer>4</integer>
+	</array>
+	<key>softwareVersionBundleId</key>
+	<string>com.designshed.alienblue</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>3405376</integer>
+	<key>softwareVersionExternalIdentifiers</key>
+	<array>
+		<integer>2591548</integer>
+		<integer>2670092</integer>
+		<integer>2706485</integer>
+		<integer>2739988</integer>
+		<integer>2777256</integer>
+		<integer>2839170</integer>
+		<integer>2886997</integer>
+		<integer>2975841</integer>
+		<integer>3040662</integer>
+		<integer>3199632</integer>
+		<integer>3226633</integer>
+		<integer>3405376</integer>
+		<integer>3468305</integer>
+		<integer>3511896</integer>
+		<integer>4143504</integer>
+		<integer>5725710</integer>
+		<integer>6041769</integer>
+		<integer>6420748</integer>
+		<integer>7133574</integer>
+		<integer>7887105</integer>
+		<integer>8521485</integer>
+		<integer>8943039</integer>
+		<integer>10766457</integer>
+		<integer>11062317</integer>
+		<integer>13622469</integer>
+		<integer>13951664</integer>
+		<integer>23952631</integer>
+		<integer>56262811</integer>
+		<integer>57282665</integer>
+		<integer>707764111</integer>
+	</array>
+	<key>vendorId</key>
+	<integer>360003</integer>
+	<key>versionRestrictions</key>
+	<integer>16843008</integer>
+</dict>
+</plist>

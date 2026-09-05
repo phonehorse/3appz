@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appleId</key>
+	<string>ChatMauve@apple.com</string>
+	<key>purchaseDate</key>
+	<date>2010-08-08T08:08:08Z</date>
+	<key>artistId</key>
+	<integer>285874818</integer>
+	<key>artistName</key>
+	<string>Lima Sky</string>
+	<key>buy-only</key>
+	<true/>
+	<key>buyParams</key>
+	<string>productType=C&amp;salableAdamId=307727765&amp;pricingParameters=STDQ&amp;price=990&amp;ct-id=14</string>
+	<key>copyright</key>
+	<string>© 2009 Lima Sky, LLC</string>
+	<key>drmVersionNumber</key>
+	<integer>0</integer>
+	<key>fileExtension</key>
+	<string>.app</string>
+	<key>genre</key>
+	<string>Games</string>
+	<key>genreId</key>
+	<integer>6014</integer>
+	<key>itemId</key>
+	<integer>307727765</integer>
+	<key>itemName</key>
+	<string>Doodle Jump - BE WARNED: Insanely Addictive!</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>playlistArtistName</key>
+	<string>Lima Sky</string>
+	<key>playlistName</key>
+	<string>Doodle Jump - BE WARNED: Insanely Addictive!</string>
+	<key>price</key>
+	<integer>990</integer>
+	<key>priceDisplay</key>
+	<string>$0.99</string>
+	<key>rating</key>
+	<dict>
+		<key>content</key>
+		<string></string>
+		<key>label</key>
+		<string>4+</string>
+		<key>rank</key>
+		<integer>100</integer>
+		<key>system</key>
+		<string>itunes-games</string>
+	</dict>
+	<key>releaseDate</key>
+	<string>2009-03-27T02:01:56Z</string>
+	<key>s</key>
+	<integer>143441</integer>
+	<key>softwareIcon57x57URL</key>
+	<string>http://a1.phobos.apple.com/us/r1000/038/Purple/78/17/a0/mzi.eislifgf.png</string>
+	<key>softwareIconNeedsShine</key>
+	<false/>
+	<key>softwareSupportedDeviceIds</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>softwareVersionBundleId</key>
+	<string>com.yourcompany.DoodleJump</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>2960170</integer>
+	<key>softwareVersionExternalIdentifiers</key>
+	<array>
+		<integer>1513421</integer>
+		<integer>1529971</integer>
+		<integer>1546796</integer>
+		<integer>1585368</integer>
+		<integer>1621711</integer>
+		<integer>1691256</integer>
+		<integer>1715281</integer>
+		<integer>1797433</integer>
+		<integer>1829982</integer>
+		<integer>1846608</integer>
+		<integer>1868336</integer>
+		<integer>1895501</integer>
+		<integer>1919062</integer>
+		<integer>1953232</integer>
+		<integer>1986314</integer>
+		<integer>2018681</integer>
+		<integer>2053642</integer>
+		<integer>2079316</integer>
+		<integer>2121971</integer>
+		<integer>2153882</integer>
+		<integer>2187333</integer>
+		<integer>2222823</integer>
+		<integer>2255764</integer>
+		<integer>2309260</integer>
+		<integer>2380738</integer>
+		<integer>2423271</integer>
+		<integer>2466882</integer>
+		<integer>2513361</integer>
+		<integer>2559403</integer>
+		<integer>2614652</integer>
+		<integer>2677832</integer>
+		<integer>2807056</integer>
+		<integer>2882531</integer>
+		<integer>2960170</integer>
+	</array>
+	<key>subgenres</key>
+	<array>
+		<dict>
+			<key>genre</key>
+			<string>Action</string>
+			<key>genreId</key>
+			<integer>7001</integer>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>Adventure</string>
+			<key>genreId</key>
+			<integer>7002</integer>
+		</dict>
+	</array>
+	<key>vendorId</key>
+	<integer>15197</integer>
+	<key>versionRestrictions</key>
+	<integer>16843008</integer>
+</dict>
+</plist>
+
